@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 // Unit 2, Topic 2.1, Classes and Objects, 11/01/21, version 0.2
 
 
@@ -32,10 +34,38 @@ public class Student {
         this.gradePointAvg = 4.0; 
     
     // More than one constructor is known as OVERLOADING. 
-    
+  
     }
 
+    // Creating Methods 
 
+    public static void calcGPA() {
+        int grade0; 
+        int grade1;
+        int grade2;
+        int grade3; 
+        double newGPA; 
+
+        import java.util.Scanner; 
+        Scanner myScanner = new Scanner(System.in); 
+
+        System.out.println("What is the first grade?")
+        grade0 = myScanner.nextInt();
+        System.out.println("What is the second grade?")
+        grade1 = myScanner.nextInt();
+        System.out.println("What is the third grade?")
+        grade2 = myScanner.nextInt();
+        System.out.println("What is the fourth grade?")
+        grade3 = myScanner.nextInt();
+
+        
+
+
+
+
+
+
+    } 
 
     public static void main(String[] args) {
         Student student0 = new Student(); 
