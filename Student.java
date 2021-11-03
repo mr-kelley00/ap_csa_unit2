@@ -63,6 +63,17 @@ public class Student {
         System.out.println(newGPA);
     } 
 
+    public static void newLine() {
+        System.out.println(); 
+
+    }
+
+    public static void threeLine() {
+        newLine();
+        newLine();
+        newLine();
+    }
+
     public static void main(String[] args) {
         Student student0 = new Student(); 
         Student student1 = new Student(12345678, 11, 0.57, "Dr. Strange");
