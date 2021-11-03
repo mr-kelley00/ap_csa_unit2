@@ -81,7 +81,7 @@ public class Student {
         System.out.println("Hello there!");
         threeLine();
         System.out.println("General Kenobi.");
-
+        calcGPA();
 
     }
 
