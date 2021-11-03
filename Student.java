@@ -46,7 +46,7 @@ public class Student {
         int grade3; 
         double newGPA; 
 
-        import java.util.Scanner; 
+        
         Scanner myScanner = new Scanner(System.in); 
 
         System.out.println("What is the first grade?");
@@ -77,6 +77,10 @@ public class Student {
     public static void main(String[] args) {
         Student student0 = new Student(); 
         Student student1 = new Student(12345678, 11, 0.57, "Dr. Strange");
+
+        System.out.println("Hello there!");
+        threeLine();
+        System.out.println("General Kenobi.");
 
 
     }
