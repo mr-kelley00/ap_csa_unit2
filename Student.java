@@ -49,27 +49,24 @@ public class Student {
         import java.util.Scanner; 
         Scanner myScanner = new Scanner(System.in); 
 
-        System.out.println("What is the first grade?")
+        System.out.println("What is the first grade?");
         grade0 = myScanner.nextInt();
-        System.out.println("What is the second grade?")
+        System.out.println("What is the second grade?");
         grade1 = myScanner.nextInt();
-        System.out.println("What is the third grade?")
+        System.out.println("What is the third grade?");
         grade2 = myScanner.nextInt();
-        System.out.println("What is the fourth grade?")
+        System.out.println("What is the fourth grade?");
         grade3 = myScanner.nextInt();
 
-        
-
-
-
-
-
-
+        newGPA = (grade0 + grade1 + grade2 + grade3) / 4;
+        System.out.print("The new GPA is");
+        System.out.println(newGPA);
     } 
 
     public static void main(String[] args) {
         Student student0 = new Student(); 
         Student student1 = new Student(12345678, 11, 0.57, "Dr. Strange");
+
 
     }
 
