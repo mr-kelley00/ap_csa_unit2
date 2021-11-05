@@ -74,6 +74,31 @@ public class Student {
         newLine();
     }
 
+    // Parameters and Arguments 
+    public static void assignLunch(int gradeLevel) {
+        String lunchPeriod; 
+
+        if (gradeLevel == 9) {
+            lunchPeriod = "First Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        } else if (gradeLevel == 10) {
+            lunchPeriod = "Second Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        } else if (gradeLevel == 11) {
+            lunchPeriod = "Third Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        } else {
+            lunchPeriod = "Off-Campus Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        }
+
+    }
+
+
     public static void main(String[] args) {
         Student student0 = new Student(); 
         Student student1 = new Student(12345678, 11, 0.57, "Dr. Strange");
