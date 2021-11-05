@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Unit 2, Topic 2.1, Classes and Objects, 11/01/21, version 0.2
+// Unit 2, 11/05/21, version 0.4
 
 
 public class Student {
@@ -100,6 +100,7 @@ public class Student {
 
 
     public static void main(String[] args) {
+        /*
         Student student0 = new Student(); 
         Student student1 = new Student(12345678, 11, 0.57, "Dr. Strange");
 
@@ -107,6 +108,9 @@ public class Student {
         threeLine();
         System.out.println("General Kenobi.");
         calcGPA();
+        */ 
+
+        assignLunch(9); 
 
     }
 
