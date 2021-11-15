@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Unit 2, Topic 2.1, Classes and Objects, 11/01/21, version 0.2
+// Unit 2, 11/15/21, version 0.5
 
 
 public class Student {
@@ -32,10 +32,13 @@ public class Student {
         this.studentName = studentName;
         this.gradeLevel = 9;
         this.gradePointAvg = 4.0; 
-    
+    }
     // More than one constructor is known as OVERLOADING. 
   
-    }
+    
+
+
+    
 
     // Creating Methods 
 
@@ -61,7 +64,6 @@ public class Student {
         newGPA = (grade0 + grade1 + grade2 + grade3) / 4;
         System.out.print("The new GPA is");
         System.out.println(newGPA);
-        myScanner.close();
     } 
 
     public static void newLine() {
@@ -75,8 +77,60 @@ public class Student {
         newLine();
     }
 
+    // Parameters and Arguments 
+    public static void assignLunch(int gradeLevel) {
+        String lunchPeriod; 
+
+        if (gradeLevel == 9) {
+            lunchPeriod = "First Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        } else if (gradeLevel == 10) {
+            lunchPeriod = "Second Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        } else if (gradeLevel == 11) {
+            lunchPeriod = "Third Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        } else {
+            lunchPeriod = "Off-Campus Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        }
+
+    }
+
+    public static void assignLunchMultiple(int gradeLevel, double gradePointAvg) {
+        String lunchPeriod; 
+        // AND, OR, NOT -- Boolean Operators
+        // && -- AND 
+        // || -- OR
+        // ! -- NOT 
+
+        if (gradeLevel == 9 || gradePointAvg <= 1.5) {
+            lunchPeriod = "First Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        } else if (gradeLevel == 10 && gradePointAvg > 2.0) {
+            lunchPeriod = "Second Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        } else if (gradeLevel == 11 && (gradePointAvg != 0.0)) {
+            lunchPeriod = "Third Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        } else {
+            lunchPeriod = "Off-Campus Lunch";
+            System.out.print("This student has ");
+            System.out.println(lunchPeriod);
+        }
+
+    }
+
+
     public static void main(String[] args) {
-        
+        /*
         Student student0 = new Student(); 
         Student student1 = new Student(12345678, 11, 0.57, "Dr. Strange");
 
@@ -84,8 +138,25 @@ public class Student {
         threeLine();
         System.out.println("General Kenobi.");
         calcGPA();
-      
-      
+        */ 
+
+        // assignLunch(9); 
+
+        int a; 
+        double b;
+        String c;
+
+        // Starting Memory Diagram
+        a = 3;
+        b = 3.25;
+        c = "Potato";
+
+        // Ending Memory Diagram 
+        a = a * -5;
+        b = b * 2;
+        c = "Apple";
+
+
 
     }
 
