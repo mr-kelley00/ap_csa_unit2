@@ -35,11 +35,6 @@ public class Student {
     }
     // More than one constructor is known as OVERLOADING. 
   
-    
-
-
-    
-
     // Creating Methods 
 
     public static void calcGPA() {
@@ -66,17 +61,7 @@ public class Student {
         System.out.println(newGPA);
     } 
 
-    public static void newLine() {
-        System.out.println(); 
-
-    }
-
-    public static void threeLine() {
-        newLine();
-        newLine();
-        newLine();
-    }
-
+    
     // Parameters and Arguments 
     public static void assignLunch(int gradeLevel) {
         String lunchPeriod; 
@@ -125,7 +110,6 @@ public class Student {
             System.out.print("This student has ");
             System.out.println(lunchPeriod);
         }
-
     }
 
 
@@ -141,7 +125,7 @@ public class Student {
         */ 
 
         // assignLunch(9); 
-
+        /*
         int a; 
         double b;
         String c;
@@ -155,6 +139,10 @@ public class Student {
         a = a * -5;
         b = b * 2;
         c = "Apple";
+        */
+
+        assignLunchMultiple(10, 1.45); 
+        assignLunchMultiple(11, 2.5);
 
 
 
