@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Unit 2, 11/15/21, version 0.5
+// Unit 2, 11/19/21, 8:33am, version 0.7
 
 
 public class Student {
@@ -61,8 +61,7 @@ public class Student {
         System.out.println(newGPA);
     } 
 
-    
-    // Parameters and Arguments 
+        // Parameters and Arguments 
     public static void assignLunch(int gradeLevel) {
         String lunchPeriod; 
 
@@ -98,7 +97,7 @@ public class Student {
             System.out.print("This student has ");
             System.out.println(lunchPeriod);
         } else if (gradeLevel == 10 && gradePointAvg > 2.0) {
-            lunchPeriod = "Second Lunch";
+            lunchPeriod = "Second Lunc[h";
             System.out.print("This student has ");
             System.out.println(lunchPeriod);
         } else if (gradeLevel == 11 && (gradePointAvg != 0.0)) {
@@ -112,6 +111,19 @@ public class Student {
         }
     }
 
+    public static void mathPractice() {
+        int x; 
+        int y; 
+        Scanner myScanner = new Scanner(System.in);
+        x = myScanner.nextInt();
+        y = myScanner.nextInt();
+        System.out.println(Math.min(x, y));
+
+        int lowest;
+        lowest = Math.min(x, y);
+        System.out.println(lowest);        
+
+    }
 
     public static void main(String[] args) {
         /*
