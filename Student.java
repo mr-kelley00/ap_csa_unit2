@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Unit 2, 11/19/21, 8:33am, version 0.7
+// Unit 2, 11/19/21, 8:41am, version 0.8
 
 
 public class Student {
@@ -115,7 +115,9 @@ public class Student {
         int x; 
         int y; 
         Scanner myScanner = new Scanner(System.in);
+        System.out.println("Type an integer and press enter.\n");
         x = myScanner.nextInt();
+        System.out.println("Type an integer and press enter.\n");
         y = myScanner.nextInt();
         System.out.println(Math.min(x, y));
 
@@ -127,35 +129,11 @@ public class Student {
 
     public static void main(String[] args) {
         /*
-        Student student0 = new Student(); 
-        Student student1 = new Student(12345678, 11, 0.57, "Dr. Strange");
-
-        System.out.println("Hello there!");
-        threeLine();
-        System.out.println("General Kenobi.");
-        calcGPA();
-        */ 
-
-        // assignLunch(9); 
-        /*
-        int a; 
-        double b;
-        String c;
-
-        // Starting Memory Diagram
-        a = 3;
-        b = 3.25;
-        c = "Potato";
-
-        // Ending Memory Diagram 
-        a = a * -5;
-        b = b * 2;
-        c = "Apple";
-        */
-
         assignLunchMultiple(10, 1.45); 
         assignLunchMultiple(11, 2.5);
+        */
 
+        mathPractice();
 
 
     }
