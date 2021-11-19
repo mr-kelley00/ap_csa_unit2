@@ -138,23 +138,8 @@ public class Student {
         percentage = (Math.random() * 100);
         System.out.print("There is a ");
         System.out.print(percentage);
-        System.out.println("% chance of rain today.\n"); 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-        
-
+        System.out.println("% chance of rain today.\n");
+  
     }
 
     public static void main(String[] args) {
