@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-// Unit 2, 11/19/21, 8:41am, version 0.8
-
+// Unit 2, 11/19/21, 8:57am, version 0.9
 
 public class Student {
     // These are INSTANCE VARIABLES.  
@@ -123,7 +122,38 @@ public class Student {
 
         int lowest;
         lowest = Math.min(x, y);
-        System.out.println(lowest);        
+        System.out.println(lowest);  
+        
+        System.out.println("Next we will use Math.pow() to calculate.\n");
+        System.out.println(Math.pow(x, y));
+
+        double exponents; 
+        exponents = Math.pow(x, y);
+        System.out.println(exponents); 
+
+        System.out.println("Next we will use Math.random().\n");
+        System.out.println(Math.random());
+
+        double percentage;
+        percentage = (Math.random() * 100);
+        System.out.print("There is a ");
+        System.out.print(percentage);
+        System.out.println("% chance of rain today.\n"); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
 
     }
 
