@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Unit 2, 11/19/21, 8:57am, version 0.9
+// Unit 2, 12/06/21, 8:35am, version 1.0.99
 
 public class Student {
     // These are INSTANCE VARIABLES.  
@@ -140,6 +140,18 @@ public class Student {
         System.out.print(percentage);
         System.out.println("% chance of rain today.\n");
   
+    }
+
+    public static double getGPA() {
+        int grade0, grade1, grade2; 
+
+        grade0 = 75;
+        grade1 = 25; 
+        grade2 = 0; 
+
+        double fakeGPA;
+        fakeGPA = (grade0 + grade1 + grade2) / 3;
+        
     }
 
     public static void main(String[] args) {
