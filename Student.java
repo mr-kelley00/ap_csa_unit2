@@ -151,7 +151,13 @@ public class Student {
 
         double fakeGPA;
         fakeGPA = (grade0 + grade1 + grade2) / 3;
+
+        return fakeGPA; 
+    }
+
+    public static String getStudentName() {
         
+
     }
 
     public static void main(String[] args) {
@@ -160,7 +166,14 @@ public class Student {
         assignLunchMultiple(11, 2.5);
         */
 
-        mathPractice();
+        // mathPractice();
+
+        double realGPA; 
+        realGPA = -1.0;
+        System.out.println(realGPA);
+        realGPA = getGPA(); 
+        System.out.println(realGPA);
+
 
 
     }
